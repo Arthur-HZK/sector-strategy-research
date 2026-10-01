@@ -1,4 +1,4 @@
-# Equity Strategy Research — Two Simple Strategies vs SPY
+# Equity Strategy Research  Two Simple Strategies vs SPY
 
 Two simple, systematic equity strategies backtested on US sector ETFs (2011 to 2026), compared to SPY. The focus is the research process: a clear economic hypothesis per strategy, point-in-time signals with no look-ahead, realistic transaction costs, and an honest read of what beats the benchmark and what does not.
 
@@ -11,12 +11,12 @@ Can two simple, distinct trading strategies beat SPY, and what happens when they
 - 9 US sector ETFs (XLK, XLF, XLV, XLY, XLP, XLI, XLE, XLU, XLB) plus SPY as benchmark
 - Daily adjusted close, 2010 to 2026 (yfinance), about 17 years, no missing data
 
-## Strategy 1 — Trend-following (absolute timing)
+## Strategy 1  Trend-following (absolute timing)
 
 Long SPY when its price is above its 200-day moving average, cash otherwise.
 Economic rationale: markets trend, and staying out during sustained downtrends avoids the largest drawdowns.
 
-## Strategy 2 — Sector momentum rotation (relative selection)
+## Strategy 2  Sector momentum rotation (relative selection)
 
 Each month, rank the 9 sectors by 12-1 momentum and hold the top 3, equally weighted.
 Economic rationale: capital flows and economic cycles are persistent, so leading sectors tend to keep leading for several months.
